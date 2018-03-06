@@ -59,7 +59,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             map.getUiSettings().setCompassEnabled(true);
             map.addMarker(new MarkerOptions().position(origin));
             map.animateCamera(CameraUpdateFactory.newCameraPosition(
-                    new CameraPosition.Builder().target(origin).zoom(6).build()));
+                    new CameraPosition.Builder().target(origin).zoom(18).build()));
         }
 
 
